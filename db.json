@@ -1,0 +1,4279 @@
+{"experiments":[
+  {
+    "experimentDbId": 24,
+    "name": "Test1",
+    "code": "GWP-MEX_58-F5-2019-A",
+    "stewardDbId": 123,
+    "programDbId": 1,
+    "projectDbId": 10,
+    "statDesignTypeDbId": 1,
+    "type": "trial",
+    "subtype": "phenotyping",
+    "subsubtype": "",
+    "managementSeasonDbId": 172,
+    "stage": "r4",
+    "entryList": [{
+        "entryDbId": 2059,
+        "germplasmDbId": 8356813,
+        "name": "CDSS10B00318T",
+        "pedigree": "CEMEXI C 2008/10/CNDO/VEE//CELTA/3/PATA_2/6/ARAM_7//CREX/ALLA/5/ENTE/MEXI_2//HUI/4/YAV_1/3/LD357E/2*TC60//JO69/9/USDA595/3/D67.3/RABI//CRA/4/ALO/5/HUI/YAV_1/6/ARDENTE/7/HUI/YAV79/8/POD_9/11/SOMAT_4/INTER_8/4/GODRIN/GUTROS//DUKEM/3/THKNEE_11/5/1A.1D5",
+        "codedName": "CDSS10B00318T-099Y",
+        "role": "test",
+        "number": "1"
+    },{
+        "entryDbId": 2060,
+        "germplasmDbId": 8356813,
+        "name": "CDSS11Y00304S",
+        "pedigree": "COLOSSEO/SELIM",
+        "codedName": "CDSS11Y00304S-099Y",
+        "role": "test",
+        "number": "2"
+    },{
+        "entryDbId": 2061,
+        "germplasmDbId": 8356813,
+        "name": "CDSS11Y00303S",
+        "pedigree": "CANNIZZO/SELIM",
+        "codedName": "CDSS11Y00303S-099Y",
+        "role": "check",
+        "number": "3"
+    }],
+    "traitList": [
+    {
+        "traitDbId": 1,
+        "traitProtocolDbId": 2
+    }
+    ],
+    "experimentLocations": [
+    {
+        "experimentLocationDbId": 64,
+        "experimentGroupDbId": 0,
+        "experimentGroupName": "",
+        "name": "GWP-MEX_58-F5-2019-A-1",
+        "siteDbId": 1892951,
+        "locManagementProtocolDbId": 1,
+        "plantingProtocolDbId": 0,
+        "plantingDate": "2019-03-15",
+        "plotLayout": {
+        "plotArrayHeaders": ["plotDbId","entryDbId","designDbId","designType","designLevel","designValue"],
+        "plotArray": [
+            ["4235","2059","1","repBlock","1","1"],
+            ["4236","2061","1","repBlock","1","1"],
+            ["4237","2060","1","repBlock","1","1"],
+            ["4238","2061","1","repBlock","1","2"],
+            ["4239","2059","1","repBlock","1","2"],
+            ["4240","2060","1","repBlock","1","2"],
+            ["4235","2059","1","treatment","2","50"],
+            ["4236","2061","1","treatment","2","50"],
+            ["4237","2060","1","treatment","2","50"],
+            ["4238","2061","1","treatment","2","100"],
+            ["4239","2059","1","treatment","2","100"],
+            ["4240","2060","1","treatment","2","100"]
+        ]
+        },
+        "plots": [{
+            "plotDbId": 4235,
+            "number": 1,
+            "unmappedX": 1,
+            "unmappedY": 1,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004235"]
+        },{
+            "plotDbId": 4236,
+            "number": 2,
+            "unmappedX": 1,
+            "unmappedY": 2,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004236"]
+        },{
+            "plotDbId": 4237,
+            "number": 3,
+            "unmappedX": 1,
+            "unmappedY": 3,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004237"]
+        },{
+            "plotDbId": 4238,
+            "number": 4,
+            "unmappedX": 2,
+            "unmappedY": 1,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004238"]
+        },{
+            "plotDbId": 4239,
+            "number": 5,
+            "unmappedX": 2,
+            "unmappedY": 2,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004239"]
+        },{
+            "plotDbId": 4240,
+            "number": 6,
+            "unmappedX": 2,
+            "unmappedY": 3,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004240"]
+        }
+        ]
+    },    {
+        "experimentLocationDbId": 65,
+        "experimentGroupDbId": 0,
+        "experimentGroupName": "",
+        "name": "GWP-MEX_58-F5-2019-A-2",
+        "siteDbId": 1892951,
+        "locManagementProtocolDbId": 0,
+        "plantingProtocolDbId": 0,
+        "plantingDate": "2019-03-15",
+        "plotLayout": {
+        "plotArrayHeaders": ["plotDbId","entryDbId","designDbId","designType","designLevel","designValue"],
+        "plotArray": [
+            ["4241","2060","1","repBlock","1","1"],
+            ["4242","2061","1","repBlock","1","1"],
+            ["4243","2059","1","repBlock","1","1"],
+            ["4244","2059","1","repBlock","1","2"],
+            ["4245","2061","1","repBlock","1","2"],
+            ["4246","2060","1","repBlock","1","2"],
+            ["4241","2060","1","treatment","2","60"],
+            ["4242","2061","1","treatment","2","60"],
+            ["4243","2059","1","treatment","2","60"],
+            ["4244","2059","1","treatment","2","90"],
+            ["4245","2061","1","treatment","2","90"],
+            ["4246","2060","1","treatment","2","90"]
+        ]
+        },
+        "plots": [{
+            "plotDbId": 4241,
+            "number": 1,
+            "unmappedX": 1,
+            "unmappedY": 1,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004241"]
+        },{
+            "plotDbId": 4242,
+            "number": 2,
+            "unmappedX": 1,
+            "unmappedY": 2,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004242"]
+        },{
+            "plotDbId": 4243,
+            "number": 3,
+            "unmappedX": 1,
+            "unmappedY": 3,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004243"]
+        },{
+            "plotDbId": 4244,
+            "number": 4,
+            "unmappedX": 2,
+            "unmappedY": 1,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004244"]
+        },{
+            "plotDbId": 4245,
+            "number": 5,
+            "unmappedX": 2,
+            "unmappedY": 2,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004245"]
+        },{
+            "plotDbId": 4246,
+            "number": 6,
+            "unmappedX": 2,
+            "unmappedY": 3,
+            "latitude": 0,
+            "longitude": 0,
+            "barcode": ["LOGMARS","0000004246"]
+        }
+        ]
+    }
+    ]
+  },
+{
+    "experimentDbId": 3773210,
+    "name": "FIFT059YR45HT",
+    "code": "r45ht",
+    "stewardDbId": 1,
+    "programDbId": 1,
+    "projectDbId": 1,
+    "statDesignTypeDbId": 1,
+    "type": "trial",
+    "subtype": "phenotyping",
+    "subsubtype": "",
+    "managementSeasonDbId": 1,
+    "stage": "r4",
+    "entryList": [
+        {
+          "entryDbId": 100,
+          "number": 1,
+          "germplasmDbId": 74978515,
+          "seedId": 94798101,
+          "codedName": "X03K064YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 101,
+          "number": 2,
+          "germplasmDbId": 74772563,
+          "seedId": 94798347,
+          "codedName": "X05K656YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 102,
+          "number": 3,
+          "germplasmDbId": 74772530,
+          "seedId": 94798316,
+          "codedName": "X05K660YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 103,
+          "number": 4,
+          "germplasmDbId": 74771155,
+          "seedId": 94798292,
+          "codedName": "X05K746YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 104,
+          "number": 5,
+          "germplasmDbId": 82233304,
+          "seedId": 94798131,
+          "codedName": "X05M939YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 105,
+          "number": 6,
+          "germplasmDbId": 82232167,
+          "seedId": 94798076,
+          "codedName": "X05M941YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 106,
+          "number": 7,
+          "germplasmDbId": 82233306,
+          "seedId": 94798033,
+          "codedName": "X05M957YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 107,
+          "number": 8,
+          "germplasmDbId": 82233368,
+          "seedId": 94798040,
+          "codedName": "X05M961YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 108,
+          "number": 9,
+          "germplasmDbId": 75659585,
+          "seedId": 94798259,
+          "codedName": "X05M985YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 109,
+          "number": 10,
+          "germplasmDbId": 75659661,
+          "seedId": 94798216,
+          "codedName": "X05M989YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 110,
+          "number": 11,
+          "germplasmDbId": 72587420,
+          "seedId": 94798294,
+          "codedName": "X08K237YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 111,
+          "number": 12,
+          "germplasmDbId": 82232199,
+          "seedId": 94798090,
+          "codedName": "X08M566YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 112,
+          "number": 13,
+          "germplasmDbId": 82232209,
+          "seedId": 94798173,
+          "codedName": "X08M593YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 113,
+          "number": 14,
+          "germplasmDbId": 82233318,
+          "seedId": 94798152,
+          "codedName": "X08M656YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 114,
+          "number": 15,
+          "germplasmDbId": 82243058,
+          "seedId": 96900210,
+          "codedName": "X05M984YHR",
+          "role": "test"
+        },
+        {
+          "entryDbId": 115,
+          "number": 16,
+          "germplasmDbId": 74772671,
+          "seedId": 97447775,
+          "codedName": "X05K736YHR",
+          "role": "test"
+        }
+      ],
+    "traitList": [
+    {
+        "traitDbId": 0,
+        "traitProtocolDbId": 0
+    }
+    ],
+    "experimentLocations": [
+    {
+        "experimentLocationDbId": 1892951,
+        "experimentGroupDbId": 0,
+        "experimentGroupName": "",
+        "name": "JHRFI243",
+        "siteDbId": 1,
+        "locManagementProtocolDbId": 0,
+        "plantingProtocolDbId": 0,
+        "plantingDate": "",
+        "plotLayout": {
+            "plotArrayHeaders": ["plotDbId","entryDbId","designDbId","designType","designLevel","designValue"],
+            "plotArray": [
+                ["100","329340006","1","rep","1","1"],
+                ["101","329340007","1","rep","1","1"],
+                ["102","329340008","1","rep","1","1"],
+                ["103","329340009","1","rep","1","1"],
+                ["104","329340010","1","rep","1","1"],
+                ["105","329340011","1","rep","1","1"],
+                ["106","329340012","1","rep","1","1"],
+                ["107","329340013","1","rep","1","1"],
+                ["108","329340014","1","rep","1","1"],
+                ["109","329340015","1","rep","1","1"],
+                ["110","329340016","1","rep","1","1"],
+                ["111","329340017","1","rep","1","1"],
+                ["112","329340018","1","rep","1","1"],
+                ["113","329340019","1","rep","1","1"],
+                ["114","329340020","1","rep","1","1"],
+                ["115","329340021","1","rep","1","1"],
+                ["100","329340022","1","rep","1","2"],
+                ["101","329340023","1","rep","1","2"],
+                ["102","329340024","1","rep","1","2"],
+                ["103","329340025","1","rep","1","2"],
+                ["104","329340026","1","rep","1","2"],
+                ["105","329340027","1","rep","1","2"],
+                ["106","329340028","1","rep","1","2"],
+                ["107","329340029","1","rep","1","2"],
+                ["108","329340030","1","rep","1","2"],
+                ["109","329340031","1","rep","1","2"],
+                ["110","329340032","1","rep","1","2"],
+                ["111","329340033","1","rep","1","2"],
+                ["112","329340034","1","rep","1","2"],
+                ["113","329340035","1","rep","1","2"],
+                ["114","329340036","1","rep","1","2"],
+                ["115","329340037","1","rep","1","2"],
+                ["100","329340038","1","rep","1","3"],
+                ["101","329340039","1","rep","1","3"],
+                ["102","329340040","1","rep","1","3"],
+                ["103","329340041","1","rep","1","3"],
+                ["104","329340042","1","rep","1","3"],
+                ["105","329340043","1","rep","1","3"],
+                ["106","329340044","1","rep","1","3"],
+                ["107","329340045","1","rep","1","3"],
+                ["108","329340046","1","rep","1","3"],
+                ["109","329340047","1","rep","1","3"],
+                ["110","329340048","1","rep","1","3"],
+                ["111","329340049","1","rep","1","3"],
+                ["112","329340050","1","rep","1","3"],
+                ["113","329340051","1","rep","1","3"],
+                ["114","329340052","1","rep","1","3"],
+                ["115","329340053","1","rep","1","3"],
+                ["100","329340054","1","rep","1","4"],
+                ["101","329340055","1","rep","1","4"],
+                ["102","329340056","1","rep","1","4"],
+                ["103","329340057","1","rep","1","4"],
+                ["104","329340058","1","rep","1","4"],
+                ["105","329340059","1","rep","1","4"],
+                ["106","329340060","1","rep","1","4"],
+                ["107","329340061","1","rep","1","4"],
+                ["108","329340062","1","rep","1","4"],
+                ["109","329340063","1","rep","1","4"],
+                ["110","329340064","1","rep","1","4"],
+                ["111","329340065","1","rep","1","4"],
+                ["112","329340066","1","rep","1","4"],
+                ["113","329340067","1","rep","1","4"],
+                ["114","329340068","1","rep","1","4"],
+                ["115","329340069","1","rep","1","4"],
+                ["100","329340070","1","rep","1","5"],
+                ["101","329340071","1","rep","1","5"],
+                ["102","329340072","1","rep","1","5"],
+                ["103","329340073","1","rep","1","5"],
+                ["104","329340074","1","rep","1","5"],
+                ["105","329340075","1","rep","1","5"],
+                ["106","329340076","1","rep","1","5"],
+                ["107","329340077","1","rep","1","5"],
+                ["108","329340078","1","rep","1","5"],
+                ["109","329340079","1","rep","1","5"],
+                ["110","329340080","1","rep","1","5"],
+                ["111","329340081","1","rep","1","5"],
+                ["112","329340082","1","rep","1","5"],
+                ["113","329340083","1","rep","1","5"],
+                ["114","329340084","1","rep","1","5"],
+                ["115","329340085","1","rep","1","5"]
+            ]},
+        "plots": [  {
+            "number": 1,
+            "plotDbId": 329340006,
+            "unmappedX": 57,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 2,
+            "plotDbId": 329340007,
+            "unmappedX": 59,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 3,
+            "plotDbId": 329340008,
+            "unmappedX": 59,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 4,
+            "plotDbId": 329340009,
+            "unmappedX": 58,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 5,
+            "plotDbId": 329340010,
+            "unmappedX": 59,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 6,
+            "plotDbId": 329340011,
+            "unmappedX": 59,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 7,
+            "plotDbId": 329340012,
+            "unmappedX": 58,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 8,
+            "plotDbId": 329340013,
+            "unmappedX": 58,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 9,
+            "plotDbId": 329340014,
+            "unmappedX": 59,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 10,
+            "plotDbId": 329340015,
+            "unmappedX": 59,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 11,
+            "plotDbId": 329340016,
+            "unmappedX": 58,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 12,
+            "plotDbId": 329340017,
+            "unmappedX": 58,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 13,
+            "plotDbId": 329340018,
+            "unmappedX": 59,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 14,
+            "plotDbId": 329340019,
+            "unmappedX": 57,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 15,
+            "plotDbId": 329340020,
+            "unmappedX": 58,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 16,
+            "plotDbId": 329340021,
+            "unmappedX": 58,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 17,
+            "plotDbId": 329340022,
+            "unmappedX": 56,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 18,
+            "plotDbId": 329340023,
+            "unmappedX": 57,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 19,
+            "plotDbId": 329340024,
+            "unmappedX": 57,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 20,
+            "plotDbId": 329340025,
+            "unmappedX": 56,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 21,
+            "plotDbId": 329340026,
+            "unmappedX": 57,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 22,
+            "plotDbId": 329340027,
+            "unmappedX": 55,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 23,
+            "plotDbId": 329340028,
+            "unmappedX": 57,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 24,
+            "plotDbId": 329340029,
+            "unmappedX": 57,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 25,
+            "plotDbId": 329340030,
+            "unmappedX": 56,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 26,
+            "plotDbId": 329340031,
+            "unmappedX": 56,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 27,
+            "plotDbId": 329340032,
+            "unmappedX": 55,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 28,
+            "plotDbId": 329340033,
+            "unmappedX": 56,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 29,
+            "plotDbId": 329340034,
+            "unmappedX": 55,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 30,
+            "plotDbId": 329340035,
+            "unmappedX": 56,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 31,
+            "plotDbId": 329340036,
+            "unmappedX": 55,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 32,
+            "plotDbId": 329340037,
+            "unmappedX": 56,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 33,
+            "plotDbId": 329340038,
+            "unmappedX": 54,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 34,
+            "plotDbId": 329340039,
+            "unmappedX": 53,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 35,
+            "plotDbId": 329340040,
+            "unmappedX": 53,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 36,
+            "plotDbId": 329340041,
+            "unmappedX": 54,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 37,
+            "plotDbId": 329340042,
+            "unmappedX": 53,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 38,
+            "plotDbId": 329340043,
+            "unmappedX": 55,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 39,
+            "plotDbId": 329340044,
+            "unmappedX": 54,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 40,
+            "plotDbId": 329340045,
+            "unmappedX": 55,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 41,
+            "plotDbId": 329340046,
+            "unmappedX": 53,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 42,
+            "plotDbId": 329340047,
+            "unmappedX": 53,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 43,
+            "plotDbId": 329340048,
+            "unmappedX": 54,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 44,
+            "plotDbId": 329340049,
+            "unmappedX": 54,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 45,
+            "plotDbId": 329340050,
+            "unmappedX": 54,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 46,
+            "plotDbId": 329340051,
+            "unmappedX": 54,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 47,
+            "plotDbId": 329340052,
+            "unmappedX": 53,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 48,
+            "plotDbId": 329340053,
+            "unmappedX": 55,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 49,
+            "plotDbId": 329340054,
+            "unmappedX": 52,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 50,
+            "plotDbId": 329340055,
+            "unmappedX": 50,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 51,
+            "plotDbId": 329340056,
+            "unmappedX": 52,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 52,
+            "plotDbId": 329340057,
+            "unmappedX": 52,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 53,
+            "plotDbId": 329340058,
+            "unmappedX": 51,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 54,
+            "plotDbId": 329340059,
+            "unmappedX": 52,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 55,
+            "plotDbId": 329340060,
+            "unmappedX": 51,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 56,
+            "plotDbId": 329340061,
+            "unmappedX": 51,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 57,
+            "plotDbId": 329340062,
+            "unmappedX": 51,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 58,
+            "plotDbId": 329340063,
+            "unmappedX": 52,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 59,
+            "plotDbId": 329340064,
+            "unmappedX": 52,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 60,
+            "plotDbId": 329340065,
+            "unmappedX": 51,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 61,
+            "plotDbId": 329340066,
+            "unmappedX": 53,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 62,
+            "plotDbId": 329340067,
+            "unmappedX": 51,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 63,
+            "plotDbId": 329340068,
+            "unmappedX": 51,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 64,
+            "plotDbId": 329340069,
+            "unmappedX": 52,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 65,
+            "plotDbId": 329340070,
+            "unmappedX": 50,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 66,
+            "plotDbId": 329340071,
+            "unmappedX": 49,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 67,
+            "plotDbId": 329340072,
+            "unmappedX": 50,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 68,
+            "plotDbId": 329340073,
+            "unmappedX": 49,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 69,
+            "plotDbId": 329340074,
+            "unmappedX": 50,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 70,
+            "plotDbId": 329340075,
+            "unmappedX": 48,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 71,
+            "plotDbId": 329340076,
+            "unmappedX": 50,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 72,
+            "plotDbId": 329340077,
+            "unmappedX": 49,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 73,
+            "plotDbId": 329340078,
+            "unmappedX": 50,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 74,
+            "plotDbId": 329340079,
+            "unmappedX": 49,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 75,
+            "plotDbId": 329340080,
+            "unmappedX": 49,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 76,
+            "plotDbId": 329340081,
+            "unmappedX": 50,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 77,
+            "plotDbId": 329340082,
+            "unmappedX": 49,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 78,
+            "plotDbId": 329340083,
+            "unmappedX": 49,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 79,
+            "plotDbId": 329340084,
+            "unmappedX": 48,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 80,
+            "plotDbId": 329340085,
+            "unmappedX": 48,
+            "unmappedY": 6,
+            "barcodes": []
+          }        
+        ]
+    },{
+        "experimentLocationDbId": 1889773,
+        "experimentGroupDbId": 0,
+        "experimentGroupName": "",
+        "name": "MCRFLSJ4",
+        "siteDbId": 1,
+        "locManagementProtocolDbId": 0,
+        "plantingProtocolDbId": 0,
+        "plantingDate": "",
+        "plotLayout": {
+            "plotArrayHeaders": ["plotDbId","entryDbId","designDbId","designType","designLevel","designValue"],
+            "plotArray": [
+                ["100","332183024","1","rep","1","1"],
+                ["101","332183025","1","rep","1","1"],
+                ["102","332183026","1","rep","1","1"],
+                ["103","332183027","1","rep","1","1"],
+                ["104","332183028","1","rep","1","1"],
+                ["105","332183029","1","rep","1","1"],
+                ["106","332183030","1","rep","1","1"],
+                ["107","332183031","1","rep","1","1"],
+                ["108","332183032","1","rep","1","1"],
+                ["109","332183033","1","rep","1","1"],
+                ["110","332183034","1","rep","1","1"],
+                ["111","332183035","1","rep","1","1"],
+                ["112","332183036","1","rep","1","1"],
+                ["113","332183037","1","rep","1","1"],
+                ["114","332183038","1","rep","1","1"],
+                ["115","332183039","1","rep","1","1"],
+                ["100","332183040","1","rep","1","2"],
+                ["101","332183041","1","rep","1","2"],
+                ["102","332183042","1","rep","1","2"],
+                ["103","332183043","1","rep","1","2"],
+                ["104","332183044","1","rep","1","2"],
+                ["105","332183045","1","rep","1","2"],
+                ["106","332183046","1","rep","1","2"],
+                ["107","332183047","1","rep","1","2"],
+                ["108","332183048","1","rep","1","2"],
+                ["109","332183049","1","rep","1","2"],
+                ["110","332183050","1","rep","1","2"],
+                ["111","332183051","1","rep","1","2"],
+                ["112","332183052","1","rep","1","2"],
+                ["113","332183053","1","rep","1","2"],
+                ["114","332183054","1","rep","1","2"],
+                ["115","332183055","1","rep","1","2"],
+                ["100","332183056","1","rep","1","3"],
+                ["101","332183057","1","rep","1","3"],
+                ["102","332183058","1","rep","1","3"],
+                ["103","332183059","1","rep","1","3"],
+                ["104","332183060","1","rep","1","3"],
+                ["105","332183061","1","rep","1","3"],
+                ["106","332183062","1","rep","1","3"],
+                ["107","332183063","1","rep","1","3"],
+                ["108","332183064","1","rep","1","3"],
+                ["109","332183065","1","rep","1","3"],
+                ["110","332183066","1","rep","1","3"],
+                ["111","332183067","1","rep","1","3"],
+                ["112","332183068","1","rep","1","3"],
+                ["113","332183069","1","rep","1","3"],
+                ["114","332183070","1","rep","1","3"],
+                ["115","332183071","1","rep","1","3"],
+                ["100","332183072","1","rep","1","4"],
+                ["101","332183073","1","rep","1","4"],
+                ["102","332183074","1","rep","1","4"],
+                ["103","332183075","1","rep","1","4"],
+                ["104","332183076","1","rep","1","4"],
+                ["105","332183077","1","rep","1","4"],
+                ["106","332183078","1","rep","1","4"],
+                ["107","332183079","1","rep","1","4"],
+                ["108","332183080","1","rep","1","4"],
+                ["109","332183081","1","rep","1","4"],
+                ["110","332183082","1","rep","1","4"],
+                ["111","332183083","1","rep","1","4"],
+                ["112","332183084","1","rep","1","4"],
+                ["113","332183085","1","rep","1","4"],
+                ["114","332183086","1","rep","1","4"],
+                ["115","332183087","1","rep","1","4"],
+                ["100","332183088","1","rep","1","5"],
+                ["101","332183089","1","rep","1","5"],
+                ["102","332183090","1","rep","1","5"],
+                ["103","332183091","1","rep","1","5"],
+                ["104","332183092","1","rep","1","5"],
+                ["105","332183093","1","rep","1","5"],
+                ["106","332183094","1","rep","1","5"],
+                ["107","332183095","1","rep","1","5"],
+                ["108","332183096","1","rep","1","5"],
+                ["109","332183097","1","rep","1","5"],
+                ["110","332183098","1","rep","1","5"],
+                ["111","332183099","1","rep","1","5"],
+                ["112","332183100","1","rep","1","5"],
+                ["113","332183101","1","rep","1","5"],
+                ["114","332183102","1","rep","1","5"],
+                ["115","332183103","1","rep","1","5"]
+            ]},
+        "plots": [  {
+            "number": 1,
+            "plotDbId": 332183024,
+            "unmappedX": 89,
+            "unmappedY": 22,
+            "barcodes": []
+          },
+          {
+            "number": 2,
+            "plotDbId": 332183025,
+            "unmappedX": 89,
+            "unmappedY": 21,
+            "barcodes": []
+          },
+          {
+            "number": 3,
+            "plotDbId": 332183026,
+            "unmappedX": 89,
+            "unmappedY": 25,
+            "barcodes": []
+          },
+          {
+            "number": 4,
+            "plotDbId": 332183027,
+            "unmappedX": 87,
+            "unmappedY": 23,
+            "barcodes": []
+          },
+          {
+            "number": 5,
+            "plotDbId": 332183028,
+            "unmappedX": 90,
+            "unmappedY": 15,
+            "barcodes": []
+          },
+          {
+            "number": 6,
+            "plotDbId": 332183029,
+            "unmappedX": 89,
+            "unmappedY": 19,
+            "barcodes": []
+          },
+          {
+            "number": 7,
+            "plotDbId": 332183030,
+            "unmappedX": 87,
+            "unmappedY": 24,
+            "barcodes": []
+          },
+          {
+            "number": 8,
+            "plotDbId": 332183031,
+            "unmappedX": 89,
+            "unmappedY": 15,
+            "barcodes": []
+          },
+          {
+            "number": 9,
+            "plotDbId": 332183032,
+            "unmappedX": 89,
+            "unmappedY": 26,
+            "barcodes": []
+          },
+          {
+            "number": 10,
+            "plotDbId": 332183033,
+            "unmappedX": 88,
+            "unmappedY": 26,
+            "barcodes": []
+          },
+          {
+            "number": 11,
+            "plotDbId": 332183034,
+            "unmappedX": 88,
+            "unmappedY": 21,
+            "barcodes": []
+          },
+          {
+            "number": 12,
+            "plotDbId": 332183035,
+            "unmappedX": 89,
+            "unmappedY": 20,
+            "barcodes": []
+          },
+          {
+            "number": 13,
+            "plotDbId": 332183036,
+            "unmappedX": 88,
+            "unmappedY": 22,
+            "barcodes": []
+          },
+          {
+            "number": 14,
+            "plotDbId": 332183037,
+            "unmappedX": 88,
+            "unmappedY": 23,
+            "barcodes": []
+          },
+          {
+            "number": 15,
+            "plotDbId": 332183038,
+            "unmappedX": 88,
+            "unmappedY": 24,
+            "barcodes": []
+          },
+          {
+            "number": 16,
+            "plotDbId": 332183039,
+            "unmappedX": 88,
+            "unmappedY": 25,
+            "barcodes": []
+          },
+          {
+            "number": 17,
+            "plotDbId": 332183040,
+            "unmappedX": 91,
+            "unmappedY": 21,
+            "barcodes": []
+          },
+          {
+            "number": 18,
+            "plotDbId": 332183041,
+            "unmappedX": 90,
+            "unmappedY": 24,
+            "barcodes": []
+          },
+          {
+            "number": 19,
+            "plotDbId": 332183042,
+            "unmappedX": 90,
+            "unmappedY": 22,
+            "barcodes": []
+          },
+          {
+            "number": 20,
+            "plotDbId": 332183043,
+            "unmappedX": 89,
+            "unmappedY": 23,
+            "barcodes": []
+          },
+          {
+            "number": 21,
+            "plotDbId": 332183044,
+            "unmappedX": 90,
+            "unmappedY": 21,
+            "barcodes": []
+          },
+          {
+            "number": 22,
+            "plotDbId": 332183045,
+            "unmappedX": 90,
+            "unmappedY": 26,
+            "barcodes": []
+          },
+          {
+            "number": 23,
+            "plotDbId": 332183046,
+            "unmappedX": 91,
+            "unmappedY": 20,
+            "barcodes": []
+          },
+          {
+            "number": 24,
+            "plotDbId": 332183047,
+            "unmappedX": 90,
+            "unmappedY": 20,
+            "barcodes": []
+          },
+          {
+            "number": 25,
+            "plotDbId": 332183048,
+            "unmappedX": 91,
+            "unmappedY": 22,
+            "barcodes": []
+          },
+          {
+            "number": 26,
+            "plotDbId": 332183049,
+            "unmappedX": 90,
+            "unmappedY": 19,
+            "barcodes": []
+          },
+          {
+            "number": 27,
+            "plotDbId": 332183050,
+            "unmappedX": 89,
+            "unmappedY": 24,
+            "barcodes": []
+          },
+          {
+            "number": 28,
+            "plotDbId": 332183051,
+            "unmappedX": 90,
+            "unmappedY": 25,
+            "barcodes": []
+          },
+          {
+            "number": 29,
+            "plotDbId": 332183052,
+            "unmappedX": 91,
+            "unmappedY": 26,
+            "barcodes": []
+          },
+          {
+            "number": 30,
+            "plotDbId": 332183053,
+            "unmappedX": 91,
+            "unmappedY": 25,
+            "barcodes": []
+          },
+          {
+            "number": 31,
+            "plotDbId": 332183054,
+            "unmappedX": 90,
+            "unmappedY": 23,
+            "barcodes": []
+          },
+          {
+            "number": 32,
+            "plotDbId": 332183055,
+            "unmappedX": 90,
+            "unmappedY": 18,
+            "barcodes": []
+          },
+          {
+            "number": 33,
+            "plotDbId": 332183056,
+            "unmappedX": 91,
+            "unmappedY": 15,
+            "barcodes": []
+          },
+          {
+            "number": 34,
+            "plotDbId": 332183057,
+            "unmappedX": 91,
+            "unmappedY": 19,
+            "barcodes": []
+          },
+          {
+            "number": 35,
+            "plotDbId": 332183058,
+            "unmappedX": 92,
+            "unmappedY": 24,
+            "barcodes": []
+          },
+          {
+            "number": 36,
+            "plotDbId": 332183059,
+            "unmappedX": 93,
+            "unmappedY": 26,
+            "barcodes": []
+          },
+          {
+            "number": 37,
+            "plotDbId": 332183060,
+            "unmappedX": 92,
+            "unmappedY": 22,
+            "barcodes": []
+          },
+          {
+            "number": 38,
+            "plotDbId": 332183061,
+            "unmappedX": 92,
+            "unmappedY": 17,
+            "barcodes": []
+          },
+          {
+            "number": 39,
+            "plotDbId": 332183062,
+            "unmappedX": 92,
+            "unmappedY": 25,
+            "barcodes": []
+          },
+          {
+            "number": 40,
+            "plotDbId": 332183063,
+            "unmappedX": 92,
+            "unmappedY": 26,
+            "barcodes": []
+          },
+          {
+            "number": 41,
+            "plotDbId": 332183064,
+            "unmappedX": 92,
+            "unmappedY": 20,
+            "barcodes": []
+          },
+          {
+            "number": 42,
+            "plotDbId": 332183065,
+            "unmappedX": 93,
+            "unmappedY": 25,
+            "barcodes": []
+          },
+          {
+            "number": 43,
+            "plotDbId": 332183066,
+            "unmappedX": 91,
+            "unmappedY": 18,
+            "barcodes": []
+          },
+          {
+            "number": 44,
+            "plotDbId": 332183067,
+            "unmappedX": 92,
+            "unmappedY": 21,
+            "barcodes": []
+          },
+          {
+            "number": 45,
+            "plotDbId": 332183068,
+            "unmappedX": 92,
+            "unmappedY": 18,
+            "barcodes": []
+          },
+          {
+            "number": 46,
+            "plotDbId": 332183069,
+            "unmappedX": 91,
+            "unmappedY": 23,
+            "barcodes": []
+          },
+          {
+            "number": 47,
+            "plotDbId": 332183070,
+            "unmappedX": 91,
+            "unmappedY": 24,
+            "barcodes": []
+          },
+          {
+            "number": 48,
+            "plotDbId": 332183071,
+            "unmappedX": 92,
+            "unmappedY": 19,
+            "barcodes": []
+          },
+          {
+            "number": 49,
+            "plotDbId": 332183072,
+            "unmappedX": 93,
+            "unmappedY": 17,
+            "barcodes": []
+          },
+          {
+            "number": 50,
+            "plotDbId": 332183073,
+            "unmappedX": 94,
+            "unmappedY": 17,
+            "barcodes": []
+          },
+          {
+            "number": 51,
+            "plotDbId": 332183074,
+            "unmappedX": 94,
+            "unmappedY": 15,
+            "barcodes": []
+          },
+          {
+            "number": 52,
+            "plotDbId": 332183075,
+            "unmappedX": 94,
+            "unmappedY": 21,
+            "barcodes": []
+          },
+          {
+            "number": 53,
+            "plotDbId": 332183076,
+            "unmappedX": 93,
+            "unmappedY": 22,
+            "barcodes": []
+          },
+          {
+            "number": 54,
+            "plotDbId": 332183077,
+            "unmappedX": 92,
+            "unmappedY": 23,
+            "barcodes": []
+          },
+          {
+            "number": 55,
+            "plotDbId": 332183078,
+            "unmappedX": 93,
+            "unmappedY": 16,
+            "barcodes": []
+          },
+          {
+            "number": 56,
+            "plotDbId": 332183079,
+            "unmappedX": 93,
+            "unmappedY": 21,
+            "barcodes": []
+          },
+          {
+            "number": 57,
+            "plotDbId": 332183080,
+            "unmappedX": 94,
+            "unmappedY": 18,
+            "barcodes": []
+          },
+          {
+            "number": 58,
+            "plotDbId": 332183081,
+            "unmappedX": 94,
+            "unmappedY": 20,
+            "barcodes": []
+          },
+          {
+            "number": 59,
+            "plotDbId": 332183082,
+            "unmappedX": 93,
+            "unmappedY": 18,
+            "barcodes": []
+          },
+          {
+            "number": 60,
+            "plotDbId": 332183083,
+            "unmappedX": 93,
+            "unmappedY": 19,
+            "barcodes": []
+          },
+          {
+            "number": 61,
+            "plotDbId": 332183084,
+            "unmappedX": 94,
+            "unmappedY": 16,
+            "barcodes": []
+          },
+          {
+            "number": 62,
+            "plotDbId": 332183085,
+            "unmappedX": 94,
+            "unmappedY": 22,
+            "barcodes": []
+          },
+          {
+            "number": 63,
+            "plotDbId": 332183086,
+            "unmappedX": 93,
+            "unmappedY": 20,
+            "barcodes": []
+          },
+          {
+            "number": 64,
+            "plotDbId": 332183087,
+            "unmappedX": 94,
+            "unmappedY": 19,
+            "barcodes": []
+          },
+          {
+            "number": 65,
+            "plotDbId": 332183088,
+            "unmappedX": 93,
+            "unmappedY": 24,
+            "barcodes": []
+          },
+          {
+            "number": 66,
+            "plotDbId": 332183089,
+            "unmappedX": 94,
+            "unmappedY": 23,
+            "barcodes": []
+          },
+          {
+            "number": 67,
+            "plotDbId": 332183090,
+            "unmappedX": 95,
+            "unmappedY": 22,
+            "barcodes": []
+          },
+          {
+            "number": 68,
+            "plotDbId": 332183091,
+            "unmappedX": 94,
+            "unmappedY": 26,
+            "barcodes": []
+          },
+          {
+            "number": 69,
+            "plotDbId": 332183092,
+            "unmappedX": 95,
+            "unmappedY": 20,
+            "barcodes": []
+          },
+          {
+            "number": 70,
+            "plotDbId": 332183093,
+            "unmappedX": 94,
+            "unmappedY": 24,
+            "barcodes": []
+          },
+          {
+            "number": 71,
+            "plotDbId": 332183094,
+            "unmappedX": 95,
+            "unmappedY": 16,
+            "barcodes": []
+          },
+          {
+            "number": 72,
+            "plotDbId": 332183095,
+            "unmappedX": 95,
+            "unmappedY": 19,
+            "barcodes": []
+          },
+          {
+            "number": 73,
+            "plotDbId": 332183096,
+            "unmappedX": 95,
+            "unmappedY": 26,
+            "barcodes": []
+          },
+          {
+            "number": 74,
+            "plotDbId": 332183097,
+            "unmappedX": 95,
+            "unmappedY": 25,
+            "barcodes": []
+          },
+          {
+            "number": 75,
+            "plotDbId": 332183098,
+            "unmappedX": 95,
+            "unmappedY": 18,
+            "barcodes": []
+          },
+          {
+            "number": 76,
+            "plotDbId": 332183099,
+            "unmappedX": 95,
+            "unmappedY": 15,
+            "barcodes": []
+          },
+          {
+            "number": 77,
+            "plotDbId": 332183100,
+            "unmappedX": 95,
+            "unmappedY": 21,
+            "barcodes": []
+          },
+          {
+            "number": 78,
+            "plotDbId": 332183101,
+            "unmappedX": 95,
+            "unmappedY": 17,
+            "barcodes": []
+          },
+          {
+            "number": 79,
+            "plotDbId": 332183102,
+            "unmappedX": 93,
+            "unmappedY": 23,
+            "barcodes": []
+          },
+          {
+            "number": 80,
+            "plotDbId": 332183103,
+            "unmappedX": 94,
+            "unmappedY": 25,
+            "barcodes": []
+          }
+        ]
+    },{
+        "experimentLocationDbId": 1895320,
+        "experimentGroupDbId": 0,
+        "experimentGroupName": "",
+        "name": "MCRNLSC4",
+        "siteDbId": 1,
+        "locManagementProtocolDbId": 0,
+        "plantingProtocolDbId": 0,
+        "plantingDate": "",
+        "plotLayout": {
+            "plotArrayHeaders": ["plotDbId","entryDbId","designDbId","designType","designLevel","designValue"],
+            "plotArray": [
+                ["100","332057849","1","rep","1","1"],
+                ["101","332057850","1","rep","1","1"],
+                ["102","332057851","1","rep","1","1"],
+                ["103","332057852","1","rep","1","1"],
+                ["104","332057853","1","rep","1","1"],
+                ["105","332057854","1","rep","1","1"],
+                ["106","332057855","1","rep","1","1"],
+                ["107","332057856","1","rep","1","1"],
+                ["108","332057857","1","rep","1","1"],
+                ["109","332057858","1","rep","1","1"],
+                ["110","332057859","1","rep","1","1"],
+                ["111","332057860","1","rep","1","1"],
+                ["112","332057861","1","rep","1","1"],
+                ["113","332057862","1","rep","1","1"],
+                ["114","332057863","1","rep","1","1"],
+                ["115","332057864","1","rep","1","1"],
+                ["100","332057865","1","rep","1","2"],
+                ["101","332057866","1","rep","1","2"],
+                ["102","332057867","1","rep","1","2"],
+                ["103","332057868","1","rep","1","2"],
+                ["104","332057869","1","rep","1","2"],
+                ["105","332057870","1","rep","1","2"],
+                ["106","332057871","1","rep","1","2"],
+                ["107","332057872","1","rep","1","2"],
+                ["108","332057873","1","rep","1","2"],
+                ["109","332057874","1","rep","1","2"],
+                ["110","332057875","1","rep","1","2"],
+                ["111","332057876","1","rep","1","2"],
+                ["112","332057877","1","rep","1","2"],
+                ["113","332057878","1","rep","1","2"],
+                ["114","332057879","1","rep","1","2"],
+                ["115","332057880","1","rep","1","2"],
+                ["100","332057881","1","rep","1","3"],
+                ["101","332057882","1","rep","1","3"],
+                ["102","332057883","1","rep","1","3"],
+                ["103","332057884","1","rep","1","3"],
+                ["104","332057885","1","rep","1","3"],
+                ["105","332057886","1","rep","1","3"],
+                ["106","332057887","1","rep","1","3"],
+                ["107","332057888","1","rep","1","3"],
+                ["108","332057889","1","rep","1","3"],
+                ["109","332057890","1","rep","1","3"],
+                ["110","332057891","1","rep","1","3"],
+                ["111","332057892","1","rep","1","3"],
+                ["112","332057893","1","rep","1","3"],
+                ["113","332057894","1","rep","1","3"],
+                ["114","332057895","1","rep","1","3"],
+                ["115","332057896","1","rep","1","3"],
+                ["100","332057897","1","rep","1","4"],
+                ["101","332057898","1","rep","1","4"],
+                ["102","332057899","1","rep","1","4"],
+                ["103","332057900","1","rep","1","4"],
+                ["104","332057901","1","rep","1","4"],
+                ["105","332057902","1","rep","1","4"],
+                ["106","332057903","1","rep","1","4"],
+                ["107","332057904","1","rep","1","4"],
+                ["108","332057905","1","rep","1","4"],
+                ["109","332057906","1","rep","1","4"],
+                ["110","332057907","1","rep","1","4"],
+                ["111","332057908","1","rep","1","4"],
+                ["112","332057909","1","rep","1","4"],
+                ["113","332057910","1","rep","1","4"],
+                ["114","332057911","1","rep","1","4"],
+                ["115","332057912","1","rep","1","4"],
+                ["100","332057913","1","rep","1","5"],
+                ["101","332057914","1","rep","1","5"],
+                ["102","332057915","1","rep","1","5"],
+                ["103","332057916","1","rep","1","5"],
+                ["104","332057917","1","rep","1","5"],
+                ["105","332057918","1","rep","1","5"],
+                ["106","332057919","1","rep","1","5"],
+                ["107","332057920","1","rep","1","5"],
+                ["108","332057921","1","rep","1","5"],
+                ["109","332057922","1","rep","1","5"],
+                ["110","332057923","1","rep","1","5"],
+                ["111","332057924","1","rep","1","5"],
+                ["112","332057925","1","rep","1","5"],
+                ["113","332057926","1","rep","1","5"],
+                ["114","332057927","1","rep","1","5"],
+                ["115","332057928","1","rep","1","5"]
+            ]},
+        "plots": [  {
+            "number": 1,
+            "plotDbId": 332057849,
+            "unmappedX": 50,
+            "unmappedY": 110,
+            "barcodes": []
+          },
+          {
+            "number": 2,
+            "plotDbId": 332057850,
+            "unmappedX": 50,
+            "unmappedY": 113,
+            "barcodes": []
+          },
+          {
+            "number": 3,
+            "plotDbId": 332057851,
+            "unmappedX": 50,
+            "unmappedY": 108,
+            "barcodes": []
+          },
+          {
+            "number": 4,
+            "plotDbId": 332057852,
+            "unmappedX": 50,
+            "unmappedY": 109,
+            "barcodes": []
+          },
+          {
+            "number": 5,
+            "plotDbId": 332057853,
+            "unmappedX": 50,
+            "unmappedY": 112,
+            "barcodes": []
+          },
+          {
+            "number": 6,
+            "plotDbId": 332057854,
+            "unmappedX": 50,
+            "unmappedY": 104,
+            "barcodes": []
+          },
+          {
+            "number": 7,
+            "plotDbId": 332057855,
+            "unmappedX": 51,
+            "unmappedY": 106,
+            "barcodes": []
+          },
+          {
+            "number": 8,
+            "plotDbId": 332057856,
+            "unmappedX": 50,
+            "unmappedY": 107,
+            "barcodes": []
+          },
+          {
+            "number": 9,
+            "plotDbId": 332057857,
+            "unmappedX": 50,
+            "unmappedY": 106,
+            "barcodes": []
+          },
+          {
+            "number": 10,
+            "plotDbId": 332057858,
+            "unmappedX": 51,
+            "unmappedY": 107,
+            "barcodes": []
+          },
+          {
+            "number": 11,
+            "plotDbId": 332057859,
+            "unmappedX": 50,
+            "unmappedY": 105,
+            "barcodes": []
+          },
+          {
+            "number": 12,
+            "plotDbId": 332057860,
+            "unmappedX": 50,
+            "unmappedY": 114,
+            "barcodes": []
+          },
+          {
+            "number": 13,
+            "plotDbId": 332057861,
+            "unmappedX": 50,
+            "unmappedY": 111,
+            "barcodes": []
+          },
+          {
+            "number": 14,
+            "plotDbId": 332057862,
+            "unmappedX": 50,
+            "unmappedY": 115,
+            "barcodes": []
+          },
+          {
+            "number": 15,
+            "plotDbId": 332057863,
+            "unmappedX": 51,
+            "unmappedY": 105,
+            "barcodes": []
+          },
+          {
+            "number": 16,
+            "plotDbId": 332057864,
+            "unmappedX": 51,
+            "unmappedY": 104,
+            "barcodes": []
+          },
+          {
+            "number": 17,
+            "plotDbId": 332057865,
+            "unmappedX": 52,
+            "unmappedY": 110,
+            "barcodes": []
+          },
+          {
+            "number": 18,
+            "plotDbId": 332057866,
+            "unmappedX": 52,
+            "unmappedY": 111,
+            "barcodes": []
+          },
+          {
+            "number": 19,
+            "plotDbId": 332057867,
+            "unmappedX": 51,
+            "unmappedY": 112,
+            "barcodes": []
+          },
+          {
+            "number": 20,
+            "plotDbId": 332057868,
+            "unmappedX": 51,
+            "unmappedY": 114,
+            "barcodes": []
+          },
+          {
+            "number": 21,
+            "plotDbId": 332057869,
+            "unmappedX": 52,
+            "unmappedY": 106,
+            "barcodes": []
+          },
+          {
+            "number": 22,
+            "plotDbId": 332057870,
+            "unmappedX": 51,
+            "unmappedY": 110,
+            "barcodes": []
+          },
+          {
+            "number": 23,
+            "plotDbId": 332057871,
+            "unmappedX": 52,
+            "unmappedY": 105,
+            "barcodes": []
+          },
+          {
+            "number": 24,
+            "plotDbId": 332057872,
+            "unmappedX": 52,
+            "unmappedY": 108,
+            "barcodes": []
+          },
+          {
+            "number": 25,
+            "plotDbId": 332057873,
+            "unmappedX": 51,
+            "unmappedY": 109,
+            "barcodes": []
+          },
+          {
+            "number": 26,
+            "plotDbId": 332057874,
+            "unmappedX": 51,
+            "unmappedY": 113,
+            "barcodes": []
+          },
+          {
+            "number": 27,
+            "plotDbId": 332057875,
+            "unmappedX": 51,
+            "unmappedY": 108,
+            "barcodes": []
+          },
+          {
+            "number": 28,
+            "plotDbId": 332057876,
+            "unmappedX": 52,
+            "unmappedY": 104,
+            "barcodes": []
+          },
+          {
+            "number": 29,
+            "plotDbId": 332057877,
+            "unmappedX": 52,
+            "unmappedY": 107,
+            "barcodes": []
+          },
+          {
+            "number": 30,
+            "plotDbId": 332057878,
+            "unmappedX": 51,
+            "unmappedY": 111,
+            "barcodes": []
+          },
+          {
+            "number": 31,
+            "plotDbId": 332057879,
+            "unmappedX": 51,
+            "unmappedY": 115,
+            "barcodes": []
+          },
+          {
+            "number": 32,
+            "plotDbId": 332057880,
+            "unmappedX": 52,
+            "unmappedY": 109,
+            "barcodes": []
+          },
+          {
+            "number": 33,
+            "plotDbId": 332057881,
+            "unmappedX": 53,
+            "unmappedY": 108,
+            "barcodes": []
+          },
+          {
+            "number": 34,
+            "plotDbId": 332057882,
+            "unmappedX": 52,
+            "unmappedY": 113,
+            "barcodes": []
+          },
+          {
+            "number": 35,
+            "plotDbId": 332057883,
+            "unmappedX": 53,
+            "unmappedY": 110,
+            "barcodes": []
+          },
+          {
+            "number": 36,
+            "plotDbId": 332057884,
+            "unmappedX": 53,
+            "unmappedY": 114,
+            "barcodes": []
+          },
+          {
+            "number": 37,
+            "plotDbId": 332057885,
+            "unmappedX": 53,
+            "unmappedY": 113,
+            "barcodes": []
+          },
+          {
+            "number": 38,
+            "plotDbId": 332057886,
+            "unmappedX": 52,
+            "unmappedY": 114,
+            "barcodes": []
+          },
+          {
+            "number": 39,
+            "plotDbId": 332057887,
+            "unmappedX": 53,
+            "unmappedY": 112,
+            "barcodes": []
+          },
+          {
+            "number": 40,
+            "plotDbId": 332057888,
+            "unmappedX": 53,
+            "unmappedY": 109,
+            "barcodes": []
+          },
+          {
+            "number": 41,
+            "plotDbId": 332057889,
+            "unmappedX": 53,
+            "unmappedY": 106,
+            "barcodes": []
+          },
+          {
+            "number": 42,
+            "plotDbId": 332057890,
+            "unmappedX": 53,
+            "unmappedY": 115,
+            "barcodes": []
+          },
+          {
+            "number": 43,
+            "plotDbId": 332057891,
+            "unmappedX": 52,
+            "unmappedY": 112,
+            "barcodes": []
+          },
+          {
+            "number": 44,
+            "plotDbId": 332057892,
+            "unmappedX": 53,
+            "unmappedY": 105,
+            "barcodes": []
+          },
+          {
+            "number": 45,
+            "plotDbId": 332057893,
+            "unmappedX": 52,
+            "unmappedY": 115,
+            "barcodes": []
+          },
+          {
+            "number": 46,
+            "plotDbId": 332057894,
+            "unmappedX": 53,
+            "unmappedY": 104,
+            "barcodes": []
+          },
+          {
+            "number": 47,
+            "plotDbId": 332057895,
+            "unmappedX": 53,
+            "unmappedY": 111,
+            "barcodes": []
+          },
+          {
+            "number": 48,
+            "plotDbId": 332057896,
+            "unmappedX": 53,
+            "unmappedY": 107,
+            "barcodes": []
+          },
+          {
+            "number": 49,
+            "plotDbId": 332057897,
+            "unmappedX": 54,
+            "unmappedY": 108,
+            "barcodes": []
+          },
+          {
+            "number": 50,
+            "plotDbId": 332057898,
+            "unmappedX": 54,
+            "unmappedY": 110,
+            "barcodes": []
+          },
+          {
+            "number": 51,
+            "plotDbId": 332057899,
+            "unmappedX": 54,
+            "unmappedY": 109,
+            "barcodes": []
+          },
+          {
+            "number": 52,
+            "plotDbId": 332057900,
+            "unmappedX": 55,
+            "unmappedY": 105,
+            "barcodes": []
+          },
+          {
+            "number": 53,
+            "plotDbId": 332057901,
+            "unmappedX": 55,
+            "unmappedY": 107,
+            "barcodes": []
+          },
+          {
+            "number": 54,
+            "plotDbId": 332057902,
+            "unmappedX": 54,
+            "unmappedY": 106,
+            "barcodes": []
+          },
+          {
+            "number": 55,
+            "plotDbId": 332057903,
+            "unmappedX": 54,
+            "unmappedY": 112,
+            "barcodes": []
+          },
+          {
+            "number": 56,
+            "plotDbId": 332057904,
+            "unmappedX": 54,
+            "unmappedY": 104,
+            "barcodes": []
+          },
+          {
+            "number": 57,
+            "plotDbId": 332057905,
+            "unmappedX": 55,
+            "unmappedY": 104,
+            "barcodes": []
+          },
+          {
+            "number": 58,
+            "plotDbId": 332057906,
+            "unmappedX": 54,
+            "unmappedY": 115,
+            "barcodes": []
+          },
+          {
+            "number": 59,
+            "plotDbId": 332057907,
+            "unmappedX": 54,
+            "unmappedY": 113,
+            "barcodes": []
+          },
+          {
+            "number": 60,
+            "plotDbId": 332057908,
+            "unmappedX": 54,
+            "unmappedY": 111,
+            "barcodes": []
+          },
+          {
+            "number": 61,
+            "plotDbId": 332057909,
+            "unmappedX": 54,
+            "unmappedY": 107,
+            "barcodes": []
+          },
+          {
+            "number": 62,
+            "plotDbId": 332057910,
+            "unmappedX": 54,
+            "unmappedY": 105,
+            "barcodes": []
+          },
+          {
+            "number": 63,
+            "plotDbId": 332057911,
+            "unmappedX": 55,
+            "unmappedY": 106,
+            "barcodes": []
+          },
+          {
+            "number": 64,
+            "plotDbId": 332057912,
+            "unmappedX": 54,
+            "unmappedY": 114,
+            "barcodes": []
+          },
+          {
+            "number": 65,
+            "plotDbId": 332057913,
+            "unmappedX": 56,
+            "unmappedY": 110,
+            "barcodes": []
+          },
+          {
+            "number": 66,
+            "plotDbId": 332057914,
+            "unmappedX": 56,
+            "unmappedY": 109,
+            "barcodes": []
+          },
+          {
+            "number": 67,
+            "plotDbId": 332057915,
+            "unmappedX": 56,
+            "unmappedY": 105,
+            "barcodes": []
+          },
+          {
+            "number": 68,
+            "plotDbId": 332057916,
+            "unmappedX": 56,
+            "unmappedY": 107,
+            "barcodes": []
+          },
+          {
+            "number": 69,
+            "plotDbId": 332057917,
+            "unmappedX": 56,
+            "unmappedY": 108,
+            "barcodes": []
+          },
+          {
+            "number": 70,
+            "plotDbId": 332057918,
+            "unmappedX": 55,
+            "unmappedY": 113,
+            "barcodes": []
+          },
+          {
+            "number": 71,
+            "plotDbId": 332057919,
+            "unmappedX": 55,
+            "unmappedY": 112,
+            "barcodes": []
+          },
+          {
+            "number": 72,
+            "plotDbId": 332057920,
+            "unmappedX": 55,
+            "unmappedY": 109,
+            "barcodes": []
+          },
+          {
+            "number": 73,
+            "plotDbId": 332057921,
+            "unmappedX": 56,
+            "unmappedY": 106,
+            "barcodes": []
+          },
+          {
+            "number": 74,
+            "plotDbId": 332057922,
+            "unmappedX": 55,
+            "unmappedY": 114,
+            "barcodes": []
+          },
+          {
+            "number": 75,
+            "plotDbId": 332057923,
+            "unmappedX": 56,
+            "unmappedY": 111,
+            "barcodes": []
+          },
+          {
+            "number": 76,
+            "plotDbId": 332057924,
+            "unmappedX": 55,
+            "unmappedY": 108,
+            "barcodes": []
+          },
+          {
+            "number": 77,
+            "plotDbId": 332057925,
+            "unmappedX": 56,
+            "unmappedY": 104,
+            "barcodes": []
+          },
+          {
+            "number": 78,
+            "plotDbId": 332057926,
+            "unmappedX": 55,
+            "unmappedY": 110,
+            "barcodes": []
+          },
+          {
+            "number": 79,
+            "plotDbId": 332057927,
+            "unmappedX": 55,
+            "unmappedY": 111,
+            "barcodes": []
+          },
+          {
+            "number": 80,
+            "plotDbId": 332057928,
+            "unmappedX": 55,
+            "unmappedY": 115,
+            "barcodes": []
+          }
+        ]
+    },{
+        "experimentLocationDbId": 1896294,
+        "experimentGroupDbId": 0,
+        "experimentGroupName": "",
+        "name": "MCYNSCS4",
+        "siteDbId": 1,
+        "locManagementProtocolDbId": 0,
+        "plantingProtocolDbId": 0,
+        "plantingDate": "",
+        "plotLayout": {
+            "plotArrayHeaders": ["plotDbId","entryDbId","designDbId","designType","designLevel","designValue"],
+            "plotArray": [
+                ["100","332987098","1","rep","1","1"],
+                ["101","332987099","1","rep","1","1"],
+                ["102","332987100","1","rep","1","1"],
+                ["103","332987101","1","rep","1","1"],
+                ["104","332987102","1","rep","1","1"],
+                ["105","332987103","1","rep","1","1"],
+                ["106","332987104","1","rep","1","1"],
+                ["107","332987105","1","rep","1","1"],
+                ["108","332987106","1","rep","1","1"],
+                ["109","332987107","1","rep","1","1"],
+                ["110","332987108","1","rep","1","1"],
+                ["111","332987109","1","rep","1","1"],
+                ["112","332987110","1","rep","1","1"],
+                ["113","332987111","1","rep","1","1"],
+                ["114","332987112","1","rep","1","1"],
+                ["115","332987113","1","rep","1","1"],
+                ["100","332987114","1","rep","1","2"],
+                ["101","332987115","1","rep","1","2"],
+                ["102","332987116","1","rep","1","2"],
+                ["103","332987117","1","rep","1","2"],
+                ["104","332987118","1","rep","1","2"],
+                ["105","332987119","1","rep","1","2"],
+                ["106","332987120","1","rep","1","2"],
+                ["107","332987121","1","rep","1","2"],
+                ["108","332987122","1","rep","1","2"],
+                ["109","332987123","1","rep","1","2"],
+                ["110","332987124","1","rep","1","2"],
+                ["111","332987125","1","rep","1","2"],
+                ["112","332987126","1","rep","1","2"],
+                ["113","332987127","1","rep","1","2"],
+                ["114","332987128","1","rep","1","2"],
+                ["115","332987129","1","rep","1","2"],
+                ["100","332987130","1","rep","1","3"],
+                ["101","332987131","1","rep","1","3"],
+                ["102","332987132","1","rep","1","3"],
+                ["103","332987133","1","rep","1","3"],
+                ["104","332987134","1","rep","1","3"],
+                ["105","332987135","1","rep","1","3"],
+                ["106","332987136","1","rep","1","3"],
+                ["107","332987137","1","rep","1","3"],
+                ["108","332987138","1","rep","1","3"],
+                ["109","332987139","1","rep","1","3"],
+                ["110","332987140","1","rep","1","3"],
+                ["111","332987141","1","rep","1","3"],
+                ["112","332987142","1","rep","1","3"],
+                ["113","332987143","1","rep","1","3"],
+                ["114","332987144","1","rep","1","3"],
+                ["115","332987145","1","rep","1","3"],
+                ["100","332987146","1","rep","1","4"],
+                ["101","332987147","1","rep","1","4"],
+                ["102","332987148","1","rep","1","4"],
+                ["103","332987149","1","rep","1","4"],
+                ["104","332987150","1","rep","1","4"],
+                ["105","332987151","1","rep","1","4"],
+                ["106","332987152","1","rep","1","4"],
+                ["107","332987153","1","rep","1","4"],
+                ["108","332987154","1","rep","1","4"],
+                ["109","332987155","1","rep","1","4"],
+                ["110","332987156","1","rep","1","4"],
+                ["111","332987157","1","rep","1","4"],
+                ["112","332987158","1","rep","1","4"],
+                ["113","332987159","1","rep","1","4"],
+                ["114","332987160","1","rep","1","4"],
+                ["115","332987161","1","rep","1","4"],
+                ["100","332987162","1","rep","1","5"],
+                ["101","332987163","1","rep","1","5"],
+                ["102","332987164","1","rep","1","5"],
+                ["103","332987165","1","rep","1","5"],
+                ["104","332987166","1","rep","1","5"],
+                ["105","332987167","1","rep","1","5"],
+                ["106","332987168","1","rep","1","5"],
+                ["107","332987169","1","rep","1","5"],
+                ["108","332987170","1","rep","1","5"],
+                ["109","332987171","1","rep","1","5"],
+                ["110","332987172","1","rep","1","5"],
+                ["111","332987173","1","rep","1","5"],
+                ["112","332987174","1","rep","1","5"],
+                ["113","332987175","1","rep","1","5"],
+                ["114","332987176","1","rep","1","5"],
+                ["115","332987177","1","rep","1","5"]
+            ]},
+        "plots": [  {
+            "number": 1,
+            "plotDbId": 332987098,
+            "unmappedX": 13,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 2,
+            "plotDbId": 332987099,
+            "unmappedX": 13,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 3,
+            "plotDbId": 332987100,
+            "unmappedX": 13,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 4,
+            "plotDbId": 332987101,
+            "unmappedX": 13,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 5,
+            "plotDbId": 332987102,
+            "unmappedX": 13,
+            "unmappedY": 1,
+            "barcodes": []
+          },
+          {
+            "number": 6,
+            "plotDbId": 332987103,
+            "unmappedX": 12,
+            "unmappedY": 1,
+            "barcodes": []
+          },
+          {
+            "number": 7,
+            "plotDbId": 332987104,
+            "unmappedX": 12,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 8,
+            "plotDbId": 332987105,
+            "unmappedX": 13,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 9,
+            "plotDbId": 332987106,
+            "unmappedX": 12,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 10,
+            "plotDbId": 332987107,
+            "unmappedX": 12,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 11,
+            "plotDbId": 332987108,
+            "unmappedX": 12,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 12,
+            "plotDbId": 332987109,
+            "unmappedX": 12,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 13,
+            "plotDbId": 332987110,
+            "unmappedX": 12,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 14,
+            "plotDbId": 332987111,
+            "unmappedX": 13,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 15,
+            "plotDbId": 332987112,
+            "unmappedX": 12,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 16,
+            "plotDbId": 332987113,
+            "unmappedX": 13,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 17,
+            "plotDbId": 332987114,
+            "unmappedX": 15,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 18,
+            "plotDbId": 332987115,
+            "unmappedX": 14,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 19,
+            "plotDbId": 332987116,
+            "unmappedX": 14,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 20,
+            "plotDbId": 332987117,
+            "unmappedX": 14,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 21,
+            "plotDbId": 332987118,
+            "unmappedX": 14,
+            "unmappedY": 1,
+            "barcodes": []
+          },
+          {
+            "number": 22,
+            "plotDbId": 332987119,
+            "unmappedX": 15,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 23,
+            "plotDbId": 332987120,
+            "unmappedX": 15,
+            "unmappedY": 1,
+            "barcodes": []
+          },
+          {
+            "number": 24,
+            "plotDbId": 332987121,
+            "unmappedX": 14,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 25,
+            "plotDbId": 332987122,
+            "unmappedX": 15,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 26,
+            "plotDbId": 332987123,
+            "unmappedX": 15,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 27,
+            "plotDbId": 332987124,
+            "unmappedX": 14,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 28,
+            "plotDbId": 332987125,
+            "unmappedX": 15,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 29,
+            "plotDbId": 332987126,
+            "unmappedX": 14,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 30,
+            "plotDbId": 332987127,
+            "unmappedX": 15,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 31,
+            "plotDbId": 332987128,
+            "unmappedX": 15,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 32,
+            "plotDbId": 332987129,
+            "unmappedX": 14,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 33,
+            "plotDbId": 332987130,
+            "unmappedX": 16,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 34,
+            "plotDbId": 332987131,
+            "unmappedX": 17,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 35,
+            "plotDbId": 332987132,
+            "unmappedX": 16,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 36,
+            "plotDbId": 332987133,
+            "unmappedX": 16,
+            "unmappedY": 1,
+            "barcodes": []
+          },
+          {
+            "number": 37,
+            "plotDbId": 332987134,
+            "unmappedX": 16,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 38,
+            "plotDbId": 332987135,
+            "unmappedX": 16,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 39,
+            "plotDbId": 332987136,
+            "unmappedX": 17,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 40,
+            "plotDbId": 332987137,
+            "unmappedX": 17,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 41,
+            "plotDbId": 332987138,
+            "unmappedX": 17,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 42,
+            "plotDbId": 332987139,
+            "unmappedX": 17,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 43,
+            "plotDbId": 332987140,
+            "unmappedX": 17,
+            "unmappedY": 1,
+            "barcodes": []
+          },
+          {
+            "number": 44,
+            "plotDbId": 332987141,
+            "unmappedX": 16,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 45,
+            "plotDbId": 332987142,
+            "unmappedX": 16,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 46,
+            "plotDbId": 332987143,
+            "unmappedX": 17,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 47,
+            "plotDbId": 332987144,
+            "unmappedX": 16,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 48,
+            "plotDbId": 332987145,
+            "unmappedX": 17,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 49,
+            "plotDbId": 332987146,
+            "unmappedX": 18,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 50,
+            "plotDbId": 332987147,
+            "unmappedX": 18,
+            "unmappedY": 1,
+            "barcodes": []
+          },
+          {
+            "number": 51,
+            "plotDbId": 332987148,
+            "unmappedX": 19,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 52,
+            "plotDbId": 332987149,
+            "unmappedX": 19,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 53,
+            "plotDbId": 332987150,
+            "unmappedX": 18,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 54,
+            "plotDbId": 332987151,
+            "unmappedX": 18,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 55,
+            "plotDbId": 332987152,
+            "unmappedX": 19,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 56,
+            "plotDbId": 332987153,
+            "unmappedX": 19,
+            "unmappedY": 1,
+            "barcodes": []
+          },
+          {
+            "number": 57,
+            "plotDbId": 332987154,
+            "unmappedX": 18,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 58,
+            "plotDbId": 332987155,
+            "unmappedX": 19,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 59,
+            "plotDbId": 332987156,
+            "unmappedX": 19,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 60,
+            "plotDbId": 332987157,
+            "unmappedX": 18,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 61,
+            "plotDbId": 332987158,
+            "unmappedX": 18,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 62,
+            "plotDbId": 332987159,
+            "unmappedX": 19,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 63,
+            "plotDbId": 332987160,
+            "unmappedX": 19,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 64,
+            "plotDbId": 332987161,
+            "unmappedX": 18,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 65,
+            "plotDbId": 332987162,
+            "unmappedX": 21,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 66,
+            "plotDbId": 332987163,
+            "unmappedX": 20,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 67,
+            "plotDbId": 332987164,
+            "unmappedX": 21,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 68,
+            "plotDbId": 332987165,
+            "unmappedX": 21,
+            "unmappedY": 1,
+            "barcodes": []
+          },
+          {
+            "number": 69,
+            "plotDbId": 332987166,
+            "unmappedX": 20,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 70,
+            "plotDbId": 332987167,
+            "unmappedX": 20,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 71,
+            "plotDbId": 332987168,
+            "unmappedX": 20,
+            "unmappedY": 1,
+            "barcodes": []
+          },
+          {
+            "number": 72,
+            "plotDbId": 332987169,
+            "unmappedX": 20,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 73,
+            "plotDbId": 332987170,
+            "unmappedX": 21,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 74,
+            "plotDbId": 332987171,
+            "unmappedX": 21,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 75,
+            "plotDbId": 332987172,
+            "unmappedX": 20,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 76,
+            "plotDbId": 332987173,
+            "unmappedX": 21,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 77,
+            "plotDbId": 332987174,
+            "unmappedX": 20,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 78,
+            "plotDbId": 332987175,
+            "unmappedX": 21,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 79,
+            "plotDbId": 332987176,
+            "unmappedX": 21,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 80,
+            "plotDbId": 332987177,
+            "unmappedX": 20,
+            "unmappedY": 4,
+            "barcodes": []
+          }
+        ]
+    },{
+        "experimentLocationDbId": 1896902,
+        "experimentGroupDbId": 0,
+        "experimentGroupName": "",
+        "name": "MCYFSSJ4",
+        "siteDbId": 1,
+        "locManagementProtocolDbId": 0,
+        "plantingProtocolDbId": 0,
+        "plantingDate": "",
+        "plotLayout": {
+            "plotArrayHeaders": ["plotDbId","entryDbId","designDbId","designType","designLevel","designValue"],
+            "plotArray": [
+                ["100","333411847","1","rep","1","1"],
+                ["101","333411848","1","rep","1","1"],
+                ["102","333411849","1","rep","1","1"],
+                ["103","333411850","1","rep","1","1"],
+                ["104","333411851","1","rep","1","1"],
+                ["105","333411852","1","rep","1","1"],
+                ["106","333411853","1","rep","1","1"],
+                ["107","333411854","1","rep","1","1"],
+                ["108","333411855","1","rep","1","1"],
+                ["109","333411856","1","rep","1","1"],
+                ["110","333411857","1","rep","1","1"],
+                ["111","333411858","1","rep","1","1"],
+                ["112","333411859","1","rep","1","1"],
+                ["113","333411860","1","rep","1","1"],
+                ["114","333411861","1","rep","1","1"],
+                ["115","333411862","1","rep","1","1"],
+                ["100","333411863","1","rep","1","2"],
+                ["101","333411864","1","rep","1","2"],
+                ["102","333411865","1","rep","1","2"],
+                ["103","333411866","1","rep","1","2"],
+                ["104","333411867","1","rep","1","2"],
+                ["105","333411868","1","rep","1","2"],
+                ["106","333411869","1","rep","1","2"],
+                ["107","333411870","1","rep","1","2"],
+                ["108","333411871","1","rep","1","2"],
+                ["109","333411872","1","rep","1","2"],
+                ["110","333411873","1","rep","1","2"],
+                ["111","333411874","1","rep","1","2"],
+                ["112","333411875","1","rep","1","2"],
+                ["113","333411876","1","rep","1","2"],
+                ["114","333411877","1","rep","1","2"],
+                ["115","333411878","1","rep","1","2"],
+                ["100","333411879","1","rep","1","3"],
+                ["101","333411880","1","rep","1","3"],
+                ["102","333411881","1","rep","1","3"],
+                ["103","333411882","1","rep","1","3"],
+                ["104","333411883","1","rep","1","3"],
+                ["105","333411884","1","rep","1","3"],
+                ["106","333411885","1","rep","1","3"],
+                ["107","333411886","1","rep","1","3"],
+                ["108","333411887","1","rep","1","3"],
+                ["109","333411888","1","rep","1","3"],
+                ["110","333411889","1","rep","1","3"],
+                ["111","333411890","1","rep","1","3"],
+                ["112","333411891","1","rep","1","3"],
+                ["113","333411892","1","rep","1","3"],
+                ["114","333411893","1","rep","1","3"],
+                ["115","333411894","1","rep","1","3"],
+                ["100","333411895","1","rep","1","4"],
+                ["101","333411896","1","rep","1","4"],
+                ["102","333411897","1","rep","1","4"],
+                ["103","333411898","1","rep","1","4"],
+                ["104","333411899","1","rep","1","4"],
+                ["105","333411900","1","rep","1","4"],
+                ["106","333411901","1","rep","1","4"],
+                ["107","333411902","1","rep","1","4"],
+                ["108","333411903","1","rep","1","4"],
+                ["109","333411904","1","rep","1","4"],
+                ["110","333411905","1","rep","1","4"],
+                ["111","333411906","1","rep","1","4"],
+                ["112","333411907","1","rep","1","4"],
+                ["113","333411908","1","rep","1","4"],
+                ["114","333411909","1","rep","1","4"],
+                ["115","333411910","1","rep","1","4"],
+                ["100","333411911","1","rep","1","5"],
+                ["101","333411912","1","rep","1","5"],
+                ["102","333411913","1","rep","1","5"],
+                ["103","333411914","1","rep","1","5"],
+                ["104","333411915","1","rep","1","5"],
+                ["105","333411916","1","rep","1","5"],
+                ["106","333411917","1","rep","1","5"],
+                ["107","333411918","1","rep","1","5"],
+                ["108","333411919","1","rep","1","5"],
+                ["109","333411920","1","rep","1","5"],
+                ["110","333411921","1","rep","1","5"],
+                ["111","333411922","1","rep","1","5"],
+                ["112","333411923","1","rep","1","5"],
+                ["113","333411924","1","rep","1","5"],
+                ["114","333411925","1","rep","1","5"],
+                ["115","333411926","1","rep","1","5"]
+            ]},
+        "plots": [  {
+            "number": 1,
+            "plotDbId": 333411847,
+            "unmappedX": 3,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 2,
+            "plotDbId": 333411848,
+            "unmappedX": 2,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 3,
+            "plotDbId": 333411849,
+            "unmappedX": 2,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 4,
+            "plotDbId": 333411850,
+            "unmappedX": 2,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 5,
+            "plotDbId": 333411851,
+            "unmappedX": 3,
+            "unmappedY": 13,
+            "barcodes": []
+          },
+          {
+            "number": 6,
+            "plotDbId": 333411852,
+            "unmappedX": 2,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 7,
+            "plotDbId": 333411853,
+            "unmappedX": 3,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 8,
+            "plotDbId": 333411854,
+            "unmappedX": 2,
+            "unmappedY": 15,
+            "barcodes": []
+          },
+          {
+            "number": 9,
+            "plotDbId": 333411855,
+            "unmappedX": 4,
+            "unmappedY": 14,
+            "barcodes": []
+          },
+          {
+            "number": 10,
+            "plotDbId": 333411856,
+            "unmappedX": 2,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 11,
+            "plotDbId": 333411857,
+            "unmappedX": 2,
+            "unmappedY": 16,
+            "barcodes": []
+          },
+          {
+            "number": 12,
+            "plotDbId": 333411858,
+            "unmappedX": 3,
+            "unmappedY": 14,
+            "barcodes": []
+          },
+          {
+            "number": 13,
+            "plotDbId": 333411859,
+            "unmappedX": 3,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 14,
+            "plotDbId": 333411860,
+            "unmappedX": 3,
+            "unmappedY": 15,
+            "barcodes": []
+          },
+          {
+            "number": 15,
+            "plotDbId": 333411861,
+            "unmappedX": 3,
+            "unmappedY": 16,
+            "barcodes": []
+          },
+          {
+            "number": 16,
+            "plotDbId": 333411862,
+            "unmappedX": 4,
+            "unmappedY": 13,
+            "barcodes": []
+          },
+          {
+            "number": 17,
+            "plotDbId": 333411863,
+            "unmappedX": 4,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 18,
+            "plotDbId": 333411864,
+            "unmappedX": 4,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 19,
+            "plotDbId": 333411865,
+            "unmappedX": 4,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 20,
+            "plotDbId": 333411866,
+            "unmappedX": 5,
+            "unmappedY": 13,
+            "barcodes": []
+          },
+          {
+            "number": 21,
+            "plotDbId": 333411867,
+            "unmappedX": 3,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 22,
+            "plotDbId": 333411868,
+            "unmappedX": 3,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 23,
+            "plotDbId": 333411869,
+            "unmappedX": 3,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 24,
+            "plotDbId": 333411870,
+            "unmappedX": 4,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 25,
+            "plotDbId": 333411871,
+            "unmappedX": 3,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 26,
+            "plotDbId": 333411872,
+            "unmappedX": 4,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 27,
+            "plotDbId": 333411873,
+            "unmappedX": 4,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 28,
+            "plotDbId": 333411874,
+            "unmappedX": 4,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 29,
+            "plotDbId": 333411875,
+            "unmappedX": 4,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 30,
+            "plotDbId": 333411876,
+            "unmappedX": 4,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 31,
+            "plotDbId": 333411877,
+            "unmappedX": 3,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 32,
+            "plotDbId": 333411878,
+            "unmappedX": 4,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 33,
+            "plotDbId": 333411879,
+            "unmappedX": 5,
+            "unmappedY": 14,
+            "barcodes": []
+          },
+          {
+            "number": 34,
+            "plotDbId": 333411880,
+            "unmappedX": 5,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 35,
+            "plotDbId": 333411881,
+            "unmappedX": 5,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 36,
+            "plotDbId": 333411882,
+            "unmappedX": 6,
+            "unmappedY": 13,
+            "barcodes": []
+          },
+          {
+            "number": 37,
+            "plotDbId": 333411883,
+            "unmappedX": 5,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 38,
+            "plotDbId": 333411884,
+            "unmappedX": 5,
+            "unmappedY": 16,
+            "barcodes": []
+          },
+          {
+            "number": 39,
+            "plotDbId": 333411885,
+            "unmappedX": 5,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 40,
+            "plotDbId": 333411886,
+            "unmappedX": 4,
+            "unmappedY": 15,
+            "barcodes": []
+          },
+          {
+            "number": 41,
+            "plotDbId": 333411887,
+            "unmappedX": 5,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 42,
+            "plotDbId": 333411888,
+            "unmappedX": 5,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 43,
+            "plotDbId": 333411889,
+            "unmappedX": 5,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 44,
+            "plotDbId": 333411890,
+            "unmappedX": 5,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 45,
+            "plotDbId": 333411891,
+            "unmappedX": 5,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 46,
+            "plotDbId": 333411892,
+            "unmappedX": 6,
+            "unmappedY": 14,
+            "barcodes": []
+          },
+          {
+            "number": 47,
+            "plotDbId": 333411893,
+            "unmappedX": 4,
+            "unmappedY": 16,
+            "barcodes": []
+          },
+          {
+            "number": 48,
+            "plotDbId": 333411894,
+            "unmappedX": 5,
+            "unmappedY": 15,
+            "barcodes": []
+          },
+          {
+            "number": 49,
+            "plotDbId": 333411895,
+            "unmappedX": 5,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 50,
+            "plotDbId": 333411896,
+            "unmappedX": 6,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 51,
+            "plotDbId": 333411897,
+            "unmappedX": 6,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 52,
+            "plotDbId": 333411898,
+            "unmappedX": 6,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 53,
+            "plotDbId": 333411899,
+            "unmappedX": 6,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 54,
+            "plotDbId": 333411900,
+            "unmappedX": 6,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 55,
+            "plotDbId": 333411901,
+            "unmappedX": 6,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 56,
+            "plotDbId": 333411902,
+            "unmappedX": 6,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 57,
+            "plotDbId": 333411903,
+            "unmappedX": 7,
+            "unmappedY": 13,
+            "barcodes": []
+          },
+          {
+            "number": 58,
+            "plotDbId": 333411904,
+            "unmappedX": 6,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 59,
+            "plotDbId": 333411905,
+            "unmappedX": 7,
+            "unmappedY": 14,
+            "barcodes": []
+          },
+          {
+            "number": 60,
+            "plotDbId": 333411906,
+            "unmappedX": 6,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 61,
+            "plotDbId": 333411907,
+            "unmappedX": 5,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 62,
+            "plotDbId": 333411908,
+            "unmappedX": 6,
+            "unmappedY": 15,
+            "barcodes": []
+          },
+          {
+            "number": 63,
+            "plotDbId": 333411909,
+            "unmappedX": 6,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 64,
+            "plotDbId": 333411910,
+            "unmappedX": 6,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 65,
+            "plotDbId": 333411911,
+            "unmappedX": 7,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 66,
+            "plotDbId": 333411912,
+            "unmappedX": 7,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 67,
+            "plotDbId": 333411913,
+            "unmappedX": 7,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 68,
+            "plotDbId": 333411914,
+            "unmappedX": 8,
+            "unmappedY": 13,
+            "barcodes": []
+          },
+          {
+            "number": 69,
+            "plotDbId": 333411915,
+            "unmappedX": 7,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 70,
+            "plotDbId": 333411916,
+            "unmappedX": 7,
+            "unmappedY": 15,
+            "barcodes": []
+          },
+          {
+            "number": 71,
+            "plotDbId": 333411917,
+            "unmappedX": 7,
+            "unmappedY": 16,
+            "barcodes": []
+          },
+          {
+            "number": 72,
+            "plotDbId": 333411918,
+            "unmappedX": 8,
+            "unmappedY": 14,
+            "barcodes": []
+          },
+          {
+            "number": 73,
+            "plotDbId": 333411919,
+            "unmappedX": 7,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 74,
+            "plotDbId": 333411920,
+            "unmappedX": 7,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 75,
+            "plotDbId": 333411921,
+            "unmappedX": 7,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 76,
+            "plotDbId": 333411922,
+            "unmappedX": 7,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 77,
+            "plotDbId": 333411923,
+            "unmappedX": 7,
+            "unmappedY": 2,
+            "barcodes": []
+          },
+          {
+            "number": 78,
+            "plotDbId": 333411924,
+            "unmappedX": 7,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 79,
+            "plotDbId": 333411925,
+            "unmappedX": 6,
+            "unmappedY": 16,
+            "barcodes": []
+          },
+          {
+            "number": 80,
+            "plotDbId": 333411926,
+            "unmappedX": 7,
+            "unmappedY": 11,
+            "barcodes": []
+          }
+        ]
+    },{
+        "experimentLocationDbId": 1892991,
+        "experimentGroupDbId": 0,
+        "experimentGroupName": "",
+        "name": "WNYN25F4",
+        "siteDbId": 1,
+        "locManagementProtocolDbId": 0,
+        "plantingProtocolDbId": 0,
+        "plantingDate": "",
+        "plotLayout": {
+            "plotArrayHeaders": ["plotDbId","entryDbId","designDbId","designType","designLevel","designValue"],
+            "plotArray": [
+                ["100","328161222","1","rep","1","1"],
+                ["101","328161223","1","rep","1","1"],
+                ["102","328161224","1","rep","1","1"],
+                ["103","328161225","1","rep","1","1"],
+                ["104","328161226","1","rep","1","1"],
+                ["105","328161227","1","rep","1","1"],
+                ["106","328161228","1","rep","1","1"],
+                ["107","328161229","1","rep","1","1"],
+                ["108","328161230","1","rep","1","1"],
+                ["109","328161231","1","rep","1","1"],
+                ["110","328161232","1","rep","1","1"],
+                ["111","328161233","1","rep","1","1"],
+                ["112","328161234","1","rep","1","1"],
+                ["113","328161235","1","rep","1","1"],
+                ["114","328161236","1","rep","1","1"],
+                ["115","328161237","1","rep","1","1"],
+                ["100","328161238","1","rep","1","2"],
+                ["101","328161239","1","rep","1","2"],
+                ["102","328161240","1","rep","1","2"],
+                ["103","328161241","1","rep","1","2"],
+                ["104","328161242","1","rep","1","2"],
+                ["105","328161243","1","rep","1","2"],
+                ["106","328161244","1","rep","1","2"],
+                ["107","328161245","1","rep","1","2"],
+                ["108","328161246","1","rep","1","2"],
+                ["109","328161247","1","rep","1","2"],
+                ["110","328161248","1","rep","1","2"],
+                ["111","328161249","1","rep","1","2"],
+                ["112","328161250","1","rep","1","2"],
+                ["113","328161251","1","rep","1","2"],
+                ["114","328161252","1","rep","1","2"],
+                ["115","328161253","1","rep","1","2"],
+                ["100","328161254","1","rep","1","3"],
+                ["101","328161255","1","rep","1","3"],
+                ["102","328161256","1","rep","1","3"],
+                ["103","328161257","1","rep","1","3"],
+                ["104","328161258","1","rep","1","3"],
+                ["105","328161259","1","rep","1","3"],
+                ["106","328161260","1","rep","1","3"],
+                ["107","328161261","1","rep","1","3"],
+                ["108","328161262","1","rep","1","3"],
+                ["109","328161263","1","rep","1","3"],
+                ["110","328161264","1","rep","1","3"],
+                ["111","328161265","1","rep","1","3"],
+                ["112","328161266","1","rep","1","3"],
+                ["113","328161267","1","rep","1","3"],
+                ["114","328161268","1","rep","1","3"],
+                ["115","328161269","1","rep","1","3"],
+                ["100","328161270","1","rep","1","4"],
+                ["101","328161271","1","rep","1","4"],
+                ["102","328161272","1","rep","1","4"],
+                ["103","328161273","1","rep","1","4"],
+                ["104","328161274","1","rep","1","4"],
+                ["105","328161275","1","rep","1","4"],
+                ["106","328161276","1","rep","1","4"],
+                ["107","328161277","1","rep","1","4"],
+                ["108","328161278","1","rep","1","4"],
+                ["109","328161279","1","rep","1","4"],
+                ["110","328161280","1","rep","1","4"],
+                ["111","328161281","1","rep","1","4"],
+                ["112","328161282","1","rep","1","4"],
+                ["113","328161283","1","rep","1","4"],
+                ["114","328161284","1","rep","1","4"],
+                ["115","328161285","1","rep","1","4"],
+                ["100","328161286","1","rep","1","5"],
+                ["101","328161287","1","rep","1","5"],
+                ["102","328161288","1","rep","1","5"],
+                ["103","328161289","1","rep","1","5"],
+                ["104","328161290","1","rep","1","5"],
+                ["105","328161291","1","rep","1","5"],
+                ["106","328161292","1","rep","1","5"],
+                ["107","328161293","1","rep","1","5"],
+                ["108","328161294","1","rep","1","5"],
+                ["109","328161295","1","rep","1","5"],
+                ["110","328161296","1","rep","1","5"],
+                ["111","328161297","1","rep","1","5"],
+                ["112","328161298","1","rep","1","5"],
+                ["113","328161299","1","rep","1","5"],
+                ["114","328161300","1","rep","1","5"],
+                ["115","328161301","1","rep","1","5"]
+            ]},
+        "plots": [  {
+            "number": 1,
+            "plotDbId": 328161222,
+            "unmappedX": 127,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 2,
+            "plotDbId": 328161223,
+            "unmappedX": 128,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 3,
+            "plotDbId": 328161224,
+            "unmappedX": 128,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 4,
+            "plotDbId": 328161225,
+            "unmappedX": 128,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 5,
+            "plotDbId": 328161226,
+            "unmappedX": 127,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 6,
+            "plotDbId": 328161227,
+            "unmappedX": 128,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 7,
+            "plotDbId": 328161228,
+            "unmappedX": 128,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 8,
+            "plotDbId": 328161229,
+            "unmappedX": 127,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 9,
+            "plotDbId": 328161230,
+            "unmappedX": 128,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 10,
+            "plotDbId": 328161231,
+            "unmappedX": 128,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 11,
+            "plotDbId": 328161232,
+            "unmappedX": 128,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 12,
+            "plotDbId": 328161233,
+            "unmappedX": 128,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 13,
+            "plotDbId": 328161234,
+            "unmappedX": 127,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 14,
+            "plotDbId": 328161235,
+            "unmappedX": 129,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 15,
+            "plotDbId": 328161236,
+            "unmappedX": 127,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 16,
+            "plotDbId": 328161237,
+            "unmappedX": 128,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 17,
+            "plotDbId": 328161238,
+            "unmappedX": 130,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 18,
+            "plotDbId": 328161239,
+            "unmappedX": 130,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 19,
+            "plotDbId": 328161240,
+            "unmappedX": 129,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 20,
+            "plotDbId": 328161241,
+            "unmappedX": 130,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 21,
+            "plotDbId": 328161242,
+            "unmappedX": 129,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 22,
+            "plotDbId": 328161243,
+            "unmappedX": 130,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 23,
+            "plotDbId": 328161244,
+            "unmappedX": 130,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 24,
+            "plotDbId": 328161245,
+            "unmappedX": 129,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 25,
+            "plotDbId": 328161246,
+            "unmappedX": 130,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 26,
+            "plotDbId": 328161247,
+            "unmappedX": 129,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 27,
+            "plotDbId": 328161248,
+            "unmappedX": 129,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 28,
+            "plotDbId": 328161249,
+            "unmappedX": 129,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 29,
+            "plotDbId": 328161250,
+            "unmappedX": 130,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 30,
+            "plotDbId": 328161251,
+            "unmappedX": 129,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 31,
+            "plotDbId": 328161252,
+            "unmappedX": 129,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 32,
+            "plotDbId": 328161253,
+            "unmappedX": 129,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 33,
+            "plotDbId": 328161254,
+            "unmappedX": 131,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 34,
+            "plotDbId": 328161255,
+            "unmappedX": 132,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 35,
+            "plotDbId": 328161256,
+            "unmappedX": 131,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 36,
+            "plotDbId": 328161257,
+            "unmappedX": 131,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 37,
+            "plotDbId": 328161258,
+            "unmappedX": 132,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 38,
+            "plotDbId": 328161259,
+            "unmappedX": 131,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 39,
+            "plotDbId": 328161260,
+            "unmappedX": 130,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 40,
+            "plotDbId": 328161261,
+            "unmappedX": 131,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 41,
+            "plotDbId": 328161262,
+            "unmappedX": 131,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 42,
+            "plotDbId": 328161263,
+            "unmappedX": 130,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 43,
+            "plotDbId": 328161264,
+            "unmappedX": 131,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 44,
+            "plotDbId": 328161265,
+            "unmappedX": 131,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 45,
+            "plotDbId": 328161266,
+            "unmappedX": 130,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 46,
+            "plotDbId": 328161267,
+            "unmappedX": 131,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 47,
+            "plotDbId": 328161268,
+            "unmappedX": 131,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 48,
+            "plotDbId": 328161269,
+            "unmappedX": 132,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 49,
+            "plotDbId": 328161270,
+            "unmappedX": 132,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 50,
+            "plotDbId": 328161271,
+            "unmappedX": 133,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 51,
+            "plotDbId": 328161272,
+            "unmappedX": 133,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 52,
+            "plotDbId": 328161273,
+            "unmappedX": 132,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 53,
+            "plotDbId": 328161274,
+            "unmappedX": 132,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 54,
+            "plotDbId": 328161275,
+            "unmappedX": 133,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 55,
+            "plotDbId": 328161276,
+            "unmappedX": 132,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 56,
+            "plotDbId": 328161277,
+            "unmappedX": 133,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 57,
+            "plotDbId": 328161278,
+            "unmappedX": 132,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 58,
+            "plotDbId": 328161279,
+            "unmappedX": 133,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 59,
+            "plotDbId": 328161280,
+            "unmappedX": 133,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 60,
+            "plotDbId": 328161281,
+            "unmappedX": 133,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 61,
+            "plotDbId": 328161282,
+            "unmappedX": 132,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 62,
+            "plotDbId": 328161283,
+            "unmappedX": 133,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 63,
+            "plotDbId": 328161284,
+            "unmappedX": 133,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 64,
+            "plotDbId": 328161285,
+            "unmappedX": 132,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 65,
+            "plotDbId": 328161286,
+            "unmappedX": 134,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 66,
+            "plotDbId": 328161287,
+            "unmappedX": 134,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 67,
+            "plotDbId": 328161288,
+            "unmappedX": 134,
+            "unmappedY": 9,
+            "barcodes": []
+          },
+          {
+            "number": 68,
+            "plotDbId": 328161289,
+            "unmappedX": 135,
+            "unmappedY": 5,
+            "barcodes": []
+          },
+          {
+            "number": 69,
+            "plotDbId": 328161290,
+            "unmappedX": 133,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 70,
+            "plotDbId": 328161291,
+            "unmappedX": 134,
+            "unmappedY": 7,
+            "barcodes": []
+          },
+          {
+            "number": 71,
+            "plotDbId": 328161292,
+            "unmappedX": 134,
+            "unmappedY": 12,
+            "barcodes": []
+          },
+          {
+            "number": 72,
+            "plotDbId": 328161293,
+            "unmappedX": 134,
+            "unmappedY": 8,
+            "barcodes": []
+          },
+          {
+            "number": 73,
+            "plotDbId": 328161294,
+            "unmappedX": 134,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 74,
+            "plotDbId": 328161295,
+            "unmappedX": 135,
+            "unmappedY": 4,
+            "barcodes": []
+          },
+          {
+            "number": 75,
+            "plotDbId": 328161296,
+            "unmappedX": 134,
+            "unmappedY": 11,
+            "barcodes": []
+          },
+          {
+            "number": 76,
+            "plotDbId": 328161297,
+            "unmappedX": 134,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 77,
+            "plotDbId": 328161298,
+            "unmappedX": 135,
+            "unmappedY": 3,
+            "barcodes": []
+          },
+          {
+            "number": 78,
+            "plotDbId": 328161299,
+            "unmappedX": 134,
+            "unmappedY": 10,
+            "barcodes": []
+          },
+          {
+            "number": 79,
+            "plotDbId": 328161300,
+            "unmappedX": 135,
+            "unmappedY": 6,
+            "barcodes": []
+          },
+          {
+            "number": 80,
+            "plotDbId": 328161301,
+            "unmappedX": 135,
+            "unmappedY": 7,
+            "barcodes": []
+          }
+        ]
+    }
+    ]
+ }]
+}
